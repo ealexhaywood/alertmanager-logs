@@ -21,6 +21,8 @@ app.post('/alerts', (req, res) => {
   // Do stuff with alerts
   console.log(alerts);
 
+  alerts['firedAt'] = new Date().toUTCString();
+
   if (config.mongodb.enabled) {
     mongoDbClient.insert(config.mongodb.collectionName, alerts)
   }
