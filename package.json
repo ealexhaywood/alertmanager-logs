@@ -1,0 +1,19 @@
+{
+  "name": "alertmanager-logs",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.2",
+    "mongodb": "^3.1.8"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.1.0"
+  }
+}

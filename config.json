@@ -1,0 +1,8 @@
+{
+  "mongodb": {
+    "enabled": true,
+    "url": "mongodb://localhost:27017",
+    "dbName": "alerts",
+    "collectionName": "alerts"
+  }
+}
